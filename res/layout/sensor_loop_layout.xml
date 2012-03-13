@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<TextView android:text="Compass events" style="@style/Title"
+		android:layout_marginBottom="20px" android:id="@+id/title" />
+
+	<TextView android:text="@string/Compass_SendWhenChangesText"
+		android:layout_alignParentLeft="true" android:layout_below="@id/title"
+		android:textColor="#FFFFFF" android:textSize="18px" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</TextView>
+
+	<EditText android:text="@string/Compass_DefaultDeltaValue"
+		android:layout_toRightOf="@id/TextView01" android:layout_below="@id/title"
+		android:id="@+id/DefaultDeltaValueEdit" android:textSize="14px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+
+
+	<Button android:text="Start sending compass events" android:id="@+id/LoopButton"
+		android:layout_below="@id/DefaultDeltaValueEdit"
+		android:layout_alignParentRight="true" android:textSize="14px"
+		android:layout_width="wrap_content" android:onClick="loopClicked"
+		android:layout_height="wrap_content"></Button>
+
+	<ListView android:id="@+id/separator" android:layout_width="fill_parent"
+		android:layout_below="@id/LoopButton" android:layout_height="4dip"
+		android:background="#FFFFFF" />
+
+	<TextView android:text="X : " style="@style/indicatorLabel"
+		android:id="@+id/xLabel" android:layout_below="@id/separator" />
+
+	<TextView android:text="0" style="@style/indicatorValue"
+		android:id="@+id/xValue" android:layout_toRightOf="@id/xLabel"
+		android:layout_below="@id/separator" />
+
+	<TextView android:text="Y : " android:layout_below="@id/xLabel"
+		style="@style/indicatorLabel" android:id="@+id/yLabel" />
+
+	<TextView android:text="0" style="@style/indicatorValue"
+		android:layout_toRightOf="@id/yLabel" android:layout_below="@id/xLabel"
+		android:id="@+id/yValue" />
+
+	<TextView android:text="Z : " style="@style/indicatorLabel"
+		android:layout_below="@id/yLabel" android:id="@+id/zLabel" />
+
+	<TextView android:text="0" style="@style/indicatorValue"
+		android:layout_toRightOf="@id/zLabel" android:layout_below="@id/yLabel"
+		android:id="@+id/zValue" />
+
+
+
+</RelativeLayout>

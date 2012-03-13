@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/degrade" 
+    android:layout_gravity="center_vertical|center_horizontal|center">
+
+
+<TextView 
+	android:text="Send a message" 
+	android:textColor="#000000"
+	android:textSize="28px"
+	android:layout_width="wrap_content"
+	android:layout_gravity="center_vertical|center_horizontal|center"
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#000000" 
+    android:text="  " 
+    android:textSize="40px"/>
+
+<LinearLayout 
+	android:orientation="horizontal" >
+
+<TextView 
+	android:text="Msg:" 
+	android:textColor="#000000"
+	android:textSize="20px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+<EditText 
+	android:id="@+id/MessageField" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" />
+	
+</LinearLayout>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#000000" 
+    android:text="  " 
+    android:textSize="10px"/>
+
+<Button 
+	android:text="Send !" 
+	android:id="@+id/SendButton" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+	
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#000000" 
+    android:text="  " 
+    android:textSize="10px"/>
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#000000" 
+    android:text="Message will be sent as a JSON object under format {'message','your message'}"
+    android:textSize="14px"/>
+
+</TableLayout>

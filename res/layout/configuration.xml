@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_vertical|center_horizontal|center">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:layout_centerInParent="true"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+
+		<LinearLayout android:id="@+id/ConfigurationLinearLayout1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="center">
+
+			<TextView android:text="Configuration" android:textColor="#FFFFFF"
+				android:textSize="28px" android:layout_width="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal|center"
+				android:layout_height="wrap_content">
+			</TextView>
+
+		</LinearLayout>
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="  "
+			android:textSize="20px" />
+
+		<LinearLayout android:id="@+id/ConfigurationLinearLayout2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="left">
+
+			<TextView android:text="(WSE) Server url : " android:id="@+id/ConfigurationTextView1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFF" android:textSize="14px">
+			</TextView>
+
+			<EditText android:text="10.0.2.1" android:id="@+id/ConfigurationServerUrl"
+				android:textSize="14px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="30mm"></EditText>
+
+		</LinearLayout>
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="  "
+			android:textSize="20px" />
+
+		<LinearLayout android:id="@+id/ConfigurationLinearLayout3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="left">
+
+			<TextView android:text="Session name : " android:id="@+id/ConfigurationTextView2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFF" android:textSize="14px">
+			</TextView>
+
+			<EditText android:text="uist2010" android:id="@+id/ConfigurationSessionName"
+				android:textSize="14px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="30mm"></EditText>
+
+		</LinearLayout>
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="  "
+			android:textSize="20px" />
+
+		<LinearLayout android:id="@+id/ConfigurationLinearLayout4"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="left">
+
+			<TextView android:text="Location : " android:id="@+id/ConfigurationTextView3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFF" android:textSize="14px">
+			</TextView>
+
+			<EditText android:text="Home" android:id="@+id/ConfigurationLocation"
+				android:textSize="14px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:width="30mm"></EditText>
+
+		</LinearLayout>
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="  "
+			android:textSize="20px" />
+
+		<LinearLayout android:id="@+id/ConfigurationLinearLayout5"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="left">
+
+			<TextView android:text="Location params : " android:id="@+id/ConfigurationTextView4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFF" android:textSize="14px">
+			</TextView>
+
+			<EditText android:text="Xavier" android:id="@+id/ConfigurationLocationParams"
+				android:textSize="14px" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:width="30mm" >
+			</EditText>
+
+		</LinearLayout>
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="  "
+			android:textSize="20px" />
+		<Button android:text="Apply" android:id="@+id/ConfigurationApply"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="ScanQRCode" android:id="@+id/ConfigurationScan"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</TableLayout>
+
+</RelativeLayout>
+

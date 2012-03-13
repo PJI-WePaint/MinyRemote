@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="homeButton" parent="android:Widget.ImageButton">
+        <item name="android:layout_marginLeft">10px</item>
+        <item name="android:layout_marginTop">10px</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">#80000000</item>
+    </style>
+    <style name="Title">
+		<item name="android:textSize">18dip</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_alignParentTop">true</item>
+		<item name="android:layout_centerHorizontal">true</item>
+		<item name="android:paddingTop">10px</item>
+		<item name="android:paddingBottom">10px</item>
+		<item name="android:background">#5E6E8E</item>
+	</style>
+	<style name="indicatorLabel">
+		<item name="android:textSize">18dip</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:paddingLeft">10px</item>
+		<item name="android:paddingRight">10px</item>
+	</style>
+	<style name="indicatorValue">
+		<item name="android:textSize">18dip</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:paddingRight">10px</item>
+	</style>
+</resources>

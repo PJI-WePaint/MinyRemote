@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="vertical"
+	android:layout_height="fill_parent">
+	
+	<TextView android:text="CHOOSE A MODALITY" style="@style/Title"/>
+	<RelativeLayout android:id="@+id/mainLayout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageTextMessage"
+			android:onClick="textMessageClicked" android:src="@drawable/text_message"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageCompass"
+			android:onClick="compassClicked" android:src="@drawable/compass"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageGPS"
+			android:onClick="gpsClicked" android:src="@drawable/gps"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageVocalRecognition"
+			android:onClick="vocalRecognitionClicked" android:src="@drawable/vocal_recognition"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageQrCode"
+			android:onClick="qrCodeClicked" android:src="@drawable/qrcode"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageAccelerometer"
+			android:onClick="accelerometerClicked" android:src="@drawable/accelerometer"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageLight"
+			android:onClick="lightClicked" android:src="@drawable/light"></ImageView>
+
+		<ImageView style="@style/homeButton" android:id="@+id/imageQrConfig"
+			android:onClick="qrConfigClicked" android:src="@drawable/qrcode"></ImageView>
+		
+	</RelativeLayout>
+	
+</LinearLayout>

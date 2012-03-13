@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Home!</string>
+    <string name="app_name">Miny Remote</string>
+    <string name="Home_MsgButtonLabel">Send a message</string>
+    <string name="Home_CompassButtonLabel">Send compass values</string>
+    <string name="Home_GPSButtonLabel">Send GPS values</string>
+    <string name="Home_QRCodeButtonLabel">Send QRcode content</string>
+    <string name="Compass_SendCurrentValues">Send now</string>
+<string name="Compass_SendWhenChangesText">Send values where a variation of  </string>
+<string name="Compass_VariationText">  is detected  </string>
+<string name="Compass_DefaultDeltaValue">   20</string>
+<string name="Compass_LoopButton">Start send loop</string>
+<string name="Compass_Title">Compass Command</string>
+<string name="Compass_SendCurrentText">   Just send current values : </string>
+<string name="Home_VoiceButtonLabel">Speech Recognition</string>
+</resources>

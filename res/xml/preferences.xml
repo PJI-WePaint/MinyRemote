@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <EditTextPreference android:title="Url of WSE server" android:key="serverUrl"></EditTextPreference>
+        <EditTextPreference android:title="Session Name" android:summary="Name of the session you want to join" android:key="sessionName"></EditTextPreference>
+        <EditTextPreference android:title="Location" android:key="location" android:summary="Location is such a subgroup of the session (you may type a room, a house...)"></EditTextPreference>
+        <EditTextPreference android:title="Location parameters" android:summary="Parameters is text that may allow you to be identified (eg., your first name)" android:key="locationParameters"></EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
